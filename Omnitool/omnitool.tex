@@ -12,23 +12,32 @@
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{fancyhdr}
+\usepackage{multicol}
 \usepackage{blindtext}
 \usepackage{titling}
-\usepackage[left=1cm, right=1cm, top=1cm, bottom=2cm]{geometry}
-
+\usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=2cm]{geometry}
 
 \begin{document}
 
+	% Titel
 	\begin{center}
 		\Large{\textbf{Omnitool} $\cdot$ v0.1}\\
 		(cheaty na matiku)\\
 		\today\ $\cdot$ by Plasmoxy
 	\end{center}
 
-	\section{yeet}
+	\section{Matematická Analýza}
+	
+	\subsection{Limity}
 	\blindtext[1]
-
-	\section{Yosh}
-	\blindtext[2]
+	
+	\begin{multicols}{2}
+		\blindtext
+		\columnbreak
+		\blindtext
+	\end{multicols}
+	
+	\section{Algebra a diskrétna matematika}
+	\blindtext[60]
 
 \end{document}
