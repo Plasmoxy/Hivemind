@@ -16,6 +16,12 @@
 \usepackage{blindtext}
 \usepackage{titling}
 \usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=2cm]{geometry}
+\usepackage{mathtools}
+
+% limits ez commands
+\newcommand{\lima}{\lim_{x\to a}}
+\newcommand{\limi}{\lim_{x\to \infty}}
+\newcommand{\limni}{\lim_{x\to -\infty}}
 
 \begin{document}
 
@@ -26,11 +32,26 @@
 		\today\ $\cdot$ by Plasmoxy
 	\end{center}
 
+	% ======= Analyza ======
 	\section{Matematická Analýza}
-	
+		
 	\subsection{Limity}
-	
+	Vlastnosti:
+		
+	\begin{multicols}{2}
+		\par$ l = \lima f(x), m = \lima g(x) $
+		\par$ \lima[f(x)\pm g(x)] = l \pm m $
+		\par$ \lima[f(x) \cdot g(x)] = l \cdot m $
+		\par$ \lima\frac{f(x)}{g(x)} = \frac{l}{m}$ ak $m\neq 0 $
+		
+		
+		\columnbreak
+		$$ \lim_{x\to{a}} $$
+	\end{multicols}
+			
+	% ========= ADM =============
 	\section{Algebra a diskrétna matematika}
+	
 	\subsection{Gausova el. metóda}
 	\textbf{Elementárne riadkové operácie:}
 	\begin{itemize}
