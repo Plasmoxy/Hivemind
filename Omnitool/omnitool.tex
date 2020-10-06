@@ -6,7 +6,13 @@
 
 \usepackage[slovak]{babel}
 \usepackage[utf8]{inputenc}
+
+% http://tug.org/FontCatalogue/gfsneohellenic/
+%\usepackage[default]{gfsneohellenic}
+%\usepackage[LGR,T1]{fontenc}
+
 \usepackage[sfdefault]{ClearSans}
+\usepackage{euler}
 
 \usepackage{graphicx}
 \usepackage{url}
@@ -23,43 +29,25 @@
 \newcommand{\limi}{\lim_{x\to \infty}}
 \newcommand{\limni}{\lim_{x\to -\infty}}
 
+\newenvironment{mathblock2col} {
+	\setlength{\parskip}{1em}
+	\Large
+	\begin{multicols}{2}
+}{
+	\end{multicols}
+}
+
 \begin{document}
 
 	% Titel
 	\begin{center}
 		\Large{\textbf{Omnitool} $\cdot$ v0.1}\\
-		(cheaty na matiku)\\
+		(cheaty na matiku a zoznam pojmov)\\
 		\today\ $\cdot$ by Plasmoxy
 	\end{center}
 
-	% ======= Analyza ======
-	\section{Matematická Analýza}
-		
-	\subsection{Limity}
-	Vlastnosti:
-		
-	\begin{multicols}{2}
-		\par$ l = \lima f(x), m = \lima g(x) $
-		\par$ \lima[f(x)\pm g(x)] = l \pm m $
-		\par$ \lima[f(x) \cdot g(x)] = l \cdot m $
-		\par$ \lima\frac{f(x)}{g(x)} = \frac{l}{m}$ ak $m\neq 0 $
-		
-		
-		\columnbreak
-		$$ \lim_{x\to{a}} $$
-	\end{multicols}
-			
-	% ========= ADM =============
-	\section{Algebra a diskrétna matematika}
-	
-	\subsection{Gausova el. metóda}
-	\textbf{Elementárne riadkové operácie:}
-	\begin{itemize}
-		\item \textbf{ERO 1} - Výmena poradia 2 riadkov,
-		\item \textbf{ERO 2} - Vynásobenie riadku nenulovou konštantou.
-		\item \textbf{ERO 3} - Pripočítanie nenulového násobku jedného riatku k inému riadku.
-	\end{itemize}
-	
-	
+	% ADM a MA
+	\input{math/ma.tex}
+	\input{math/adm.tex}
 
 \end{document}
