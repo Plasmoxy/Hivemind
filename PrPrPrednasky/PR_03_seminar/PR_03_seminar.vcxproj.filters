@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\bloky.c">
+    <ClCompile Include="src\assert_test.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
