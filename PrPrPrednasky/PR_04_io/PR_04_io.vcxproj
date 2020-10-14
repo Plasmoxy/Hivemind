@@ -140,9 +140,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\fready.c" />
     <ClCompile Include="src\subory.c" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="binarny.txt" />
     <Text Include="ipsum.txt" />
     <Text Include="vstup.txt" />
     <Text Include="vystup.txt" />

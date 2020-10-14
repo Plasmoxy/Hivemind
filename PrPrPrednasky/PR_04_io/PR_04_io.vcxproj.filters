@@ -18,10 +18,14 @@
     <ClCompile Include="src\subory.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\fready.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="vstup.txt" />
     <Text Include="vystup.txt" />
     <Text Include="ipsum.txt" />
+    <Text Include="binarny.txt" />
   </ItemGroup>
 </Project>
