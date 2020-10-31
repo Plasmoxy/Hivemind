@@ -34,9 +34,11 @@ int main() {
 	}
 	puts("");
 	
+
+	int *tmp;
 	// WTF REALLOC ??????????
 	// MSVC funguje inak ako GCC ??????????
-	cislo_pole = (int*) realloc(cislo_pole, 16 * sizeof(int));
+	tmp = (int*) realloc(cislo_pole, 16 * sizeof(int));
 	
 
 	for (int i = 0; i < 16; i++) {
