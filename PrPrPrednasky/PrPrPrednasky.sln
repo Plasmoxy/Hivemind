@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PR_06_seminar", "PR_06_semi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STREAM_Halloween", "STREAM_Halloween\STREAM_Halloween.vcxproj", "{5916504E-4C6A-450B-ADC0-FB49D57D6E23}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PR_07_structy", "PR_07_structy\PR_07_structy.vcxproj", "{92BAC7F8-13B8-4807-BD8F-4FC5B50ECC51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{5916504E-4C6A-450B-ADC0-FB49D57D6E23}.Release|x64.Build.0 = Release|x64
 		{5916504E-4C6A-450B-ADC0-FB49D57D6E23}.Release|x86.ActiveCfg = Release|Win32
 		{5916504E-4C6A-450B-ADC0-FB49D57D6E23}.Release|x86.Build.0 = Release|Win32
+		{92BAC7F8-13B8-4807-BD8F-4FC5B50ECC51}.Debug|x64.ActiveCfg = Debug|x64
+		{92BAC7F8-13B8-4807-BD8F-4FC5B50ECC51}.Debug|x64.Build.0 = Debug|x64
+		{92BAC7F8-13B8-4807-BD8F-4FC5B50ECC51}.Debug|x86.ActiveCfg = Debug|Win32
+		{92BAC7F8-13B8-4807-BD8F-4FC5B50ECC51}.Debug|x86.Build.0 = Debug|Win32
+		{92BAC7F8-13B8-4807-BD8F-4FC5B50ECC51}.Release|x64.ActiveCfg = Release|x64
+		{92BAC7F8-13B8-4807-BD8F-4FC5B50ECC51}.Release|x64.Build.0 = Release|x64
+		{92BAC7F8-13B8-4807-BD8F-4FC5B50ECC51}.Release|x86.ActiveCfg = Release|Win32
+		{92BAC7F8-13B8-4807-BD8F-4FC5B50ECC51}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
